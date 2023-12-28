@@ -7,6 +7,17 @@
   pointer-events: none;
 }
 
+.csv-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-weight: 700;
+  background-color: #ffb300;
+  color: #fff;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

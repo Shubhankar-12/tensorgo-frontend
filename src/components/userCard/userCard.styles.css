@@ -1,0 +1,20 @@
+.status {
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-weight: 700;
+}
+.update-btn {
+  background-color: #ffb300;
+  color: #fff;
+}
+
+.update-btn:hover {
+  background-color: #ff9900;
+}
